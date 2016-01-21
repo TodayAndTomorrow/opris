@@ -1,0 +1,15 @@
+#header {
+    height: 190px;
+    width: 100%;
+}
+#menu {
+    float: left;
+    width: 25em;
+}
+#main {
+    margin-left: 26em;
+}
+#footer {
+    width: 100%;
+    clear: both;
+}

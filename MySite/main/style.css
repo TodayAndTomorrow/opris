@@ -1,0 +1,105 @@
+
+body { font-family:Verdana; font-size:8pt; margin: 0px;  left:220px; background-color:#0099AA; position:absolute;}
+
+#navside {
+	position:fixed;
+	top:0px;
+	width:200px;
+	height:100%;
+	background-color: #0c0c0c;
+	left:0px;
+	padding:10px;
+}
+
+
+#navside ul {
+  list-style: none;
+  padding: 0;
+  margin-left: auto;
+  width: 100%;
+}
+
+#navside ul li a {
+  text-decoration: none;
+  display: block;
+  color: #666;
+  line-height: 36px;
+  font-size: 14px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  -webkit-transition-property: color;
+  -webkit-transition-duration: 0.1s;
+  -webkit-transition-timing-function: ease-out;
+  -moz-transition-property: color;
+  -moz-transition-duration: 0.1s;
+  -moz-transition-timing-function: ease-out;
+  -ms-transition-property: color;
+  -ms-transition-duration: 0.1s;
+  -ms-transition-timing-function: ease-out;
+  -o-transition-property: color;
+  -o-transition-duration: 0.1s;
+  -o-transition-timing-function: ease-out;
+  transition-property: color;
+  transition-duration: 0.1s;
+  transition-timing-function: ease-out;
+  direction: ltr;
+}
+
+#navside ul li a:hover { color: #fff; }
+
+#navside .activeMenu { color: #fff; }
+
+#dataTbl {border: 1px solid gray; border-collapse:collapse; padding: 5px; width:100%;}
+#dataTbl TD {border: 1px solid gray; padding: 5px;}
+#dataTbl TH {border: 1px solid gray; padding: 5px; background-color:#AAA;}
+
+#sidebar-menu {
+  top: 0px;
+  width: 100%;
+  margin-top:50px;
+}
+
+#sidebar-menu li { border-bottom: 1px solid rgba(238, 238, 238, 0.05); }
+
+#sidebar-menu a {
+  text-decoration: none;
+  color: #595959;
+}
+
+#sidebar-menu a:hover {
+  text-decoration: none;
+  color: #595959;
+}
+
+#content {
+	position:relative;
+	background-color: white;
+	width:auto;
+	height:550px;
+	margin: 50px;
+	margin-top:10px;
+	overflow:auto;
+	overflow-x:auto;
+}
+
+#toolbar{
+	position:relative;
+	background-color: white;
+	width:auto;
+	height:30px;
+	padding:5px;
+	margin: 50px;
+	margin-bottom:0px;
+}
+
+#navmenu{
+	top:-50px;
+	background-color: #144;
+}
+.button{
+	border:1px solid #444;
+	background-color: #ACC;
+	height:100%;
+	width:auto;
+	margin-right: 10px;
+}
